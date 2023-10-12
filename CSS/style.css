@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+}
+
+.main {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  width: 100vw;
+}
+
+.botonCalcular {
+  background-color: blueviolet;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: white;
+}
+
+.botonCalcular:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+
+.footer {
+  background-color: blueviolet;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  width: 100vw;
+}
+
+/*# sourceMappingURL=style.css.map */
